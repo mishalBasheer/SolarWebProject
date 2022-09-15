@@ -1,9 +1,8 @@
 body{
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: 1.5;
     color: #818491;
     text-align: left;
     background-color: #FFFFFF;
@@ -82,7 +81,6 @@ letter-spacing: 3px;
 .nav-container{
     
     background-color: #22395d;
-    padding-bottom: 0;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -92,7 +90,7 @@ letter-spacing: 3px;
     float: none;
     width: 10%;
     display: inline-block;
-    padding:1rem;
+    padding: 0.5em;
 }
 .nav-centered:hover{
     background-color: #007bff;
@@ -117,7 +115,7 @@ letter-spacing: 3px;
     font-weight: 900;
     font-size: 2rem;
     font-family: sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 .solar:hover{
     color: #ffffff;
@@ -126,6 +124,16 @@ letter-spacing: 3px;
     background-color: antiquewhite;
 } */
 #about-us{
-    background-color: rgb(203, 56, 56);
-    padding-top: 3rem;
+    padding: 10rem 16rem;
+}
+.about-us-image{
+    float: left;
+    margin-right: 3rem;
+    padding-top: 70px;
+}
+.about-description{
+}
+.footer{
+    background-color: #22395d;
+    padding: 10rem;
 }
