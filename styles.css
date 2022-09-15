@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #818491;
+    text-align: left;
+    background-color: #FFFFFF;
+    
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3{
+    font-weight: 700 !important;
+}
+h4, h5, h6{
+    font-weight: 500;
+    line-height: 1.2;
+}
+a{
+    text-decoration: none;
+    
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.li-left{
+    float: left;
+}
+.li-right{
+    float: right;
+}
+li a{
+    display: block;
+    padding: 8px;
+    color: #ffffff;
+    text-align: center;
+}
+li a:hover{
+    color: #007bff;
+}
+.line-spacing{
+letter-spacing: 3px;
+}
+
+#home-page{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(images/Homepage_photo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(203, 56, 56);
+    color: #ffffff !important;
+    
+    height: 40rem;
+    padding-top: 15rem;
+    text-align: center;
+    
+    
+}
+.home-display{
+    font-size: 5.5rem;
+    line-height: 1.2;
+    margin: 30px auto;
+}
+.btn{
+    background-color: #FFFFFF;
+    border-color: #ffffff;
+    border-style: none;
+    font-size: medium;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+.nav-container{
+    
+    background-color: #22395d;
+    padding-bottom: 0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.nav-centered{
+    background-color: #009CFF;
+    float: none;
+    width: 10%;
+    display: inline-block;
+    padding:1rem;
+}
+.nav-centered:hover{
+    background-color: #007bff;
+}
+.nav-left{
+    display: inline-block;
+    width: 43%;
+}
+.nav-left li{
+    float: right;
+    margin-right: 20px;
+}
+.nav-right{
+    display: inline-block;
+    width: 40%;
+}
+.nav-right li{
+    float: left;
+    margin-left: 20px;
+}
+.solar{
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+.solar:hover{
+    color: #ffffff;
+}
+/* #navbar{
+    background-color: antiquewhite;
+} */
+#about-us{
+    background-color: rgb(203, 56, 56);
+    padding-top: 3rem;
+}
