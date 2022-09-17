@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solar Power</title>
 
+
+    <link rel="icon" href="icons/favicon (1).ico" type="image/x-icon">
     <!-- CSS Styles Link -->
     <link rel="stylesheet" href="styles.css">
 
@@ -25,19 +27,25 @@
 </head>
 
 <body>
-    <div id="home-page">
+
+    <!-- Home -->
+
+    <section id="home">
         <span class="line-spacing">SOLAR ENERGY</span>
         <h1 class="home-display">Let The Sun Work For <br> Your Home</h1>
-        <a href="#"><button class="btn">Get A Quote</button></a>
-    </div>
+        <a href="#contact"><button class="btn">Get A Quote</button></a>
+    </section>
 
-    <div class="nav-container">
+
+    <!-- Nav-bar -->
+
+    <section class="nav-container">
         <div class="nav-left">
             <ul>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#">HOME</a></li>
+                <li><a href="#aboutus">ABOUT US</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#home">HOME</a></li>
             </ul>
         </div>
 
@@ -50,18 +58,18 @@
 
         <div class="nav-right">
             <ul class="li-left">
-                <li><a href="#">TEAM</a></li>
-                <li><a href="#">FAQS</a></li>
-                <li><a href="#">TESTIMONIAL</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#team">TEAM</a></li>
+                <li><a href="#faqs">FAQS</a></li>
+                <li><a href="#testimonial">TESTIMONIAL</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
 
-    </div>
+    </section>
 
+    <!-- About Us -->
 
-
-    <div class="section-about-services">
+    <section class="section-about-services" id="aboutus">
         <div class="about-us-image">
             <img src="images/about.jpg" alt="about" width="445px" height="509px">
         </div>
@@ -91,8 +99,11 @@
 
         </div>
 
-    </div>
-    <div class="section-about-services text-center">
+    </section>
+
+    <!-- Services -->
+
+    <section class="section-about-services text-center" id="services">
         <h6 class="section-title">SERVICES</h6>
         <h2 class="section-title-big">What We Cover</h2>
         <p class="border-lg"></p>
@@ -118,8 +129,11 @@
                 <h2>Wind Generator</h2>
             </div>
         </div>
-    </div>
-    <div class="section-gallery text-center bg-gallery">
+    </section>
+
+    <!-- Projects -->
+
+    <section class="section-gallery text-center bg-gallery" id="projects">
         <h6 class="section-title">PROJECTS</h6>
         <h2 class="section-title-big text-white">Project Photo Gallery</h2>
         <p class="border-lg"></p>
@@ -138,8 +152,11 @@
             <div class="float-left"><img src="images/gallery5.jpg" alt="" width="303px" height="303px"></div>
 
         </div>
-    </div>
-    <div class="section-about-services text-center">
+    </section>
+
+    <!-- Teams -->
+
+    <section class="section-about-services text-center" id="team">
         <h6 class="section-title">TEAM</h6>
         <h2 class="section-title-big">Meet The Team</h2>
         <p class="border-lg"></p>
@@ -208,9 +225,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="section-about-services text-center">
+    <!-- FAQS -->
+
+    <section class="section-about-services text-center" id="faqs">
         <h6 class="section-title">FAQS</h6>
         <h2 class="section-title-big">You Should Know</h2>
         <p class="border-lg"></p>
@@ -237,36 +256,57 @@
             </div>
         </div>
         <a href="#"><button class="btn btn-readmore">Get A Quote</button></a>
-    </div>
+    </section>
 
-    <div class="section-about-services text-center">
+    <!-- Testimonials -->
+
+    <section class="section-about-services text-center" id="testimonial">
         <h6 class="section-title">TESTIMONIAL</h6>
         <h2 class="section-title-big">Our Clients Say</h2>
         <p class="border-lg"></p>
         <p class="border-sm"></p>
+        
 
-    </div>
 
-    <div class="section-about-services text-center">
+    </section>
+
+    <!-- contact -->
+
+    <section class="section-about-services text-center" id="contact">
         <h6 class="section-title">CONTACT</h6>
         <h2 class="section-title-big">Get In Touch</h2>
         <p class="border-lg"></p>
         <p class="border-sm"></p>
+<div class="contact-contents">
+            <div class="flex margin-bottom">
+                <div class="flex1">
+                    <input type="text" class="contact-text-top">
+                </div>
+                <div class="flex1">
+                    <input type="text" class="contact-text-top">
+                </div>
 
+            </div>
+            <div><input type="text" class="contact-text-btm margin-bottom"><br>
+                <textarea name="msg" id="msg" rows="6" class="contact-textarea"></textarea>
+            </div>
+        </div>
 
-    </div>
+    </section>
 
-    <div class="footer text-white">
+    <!-- Footer Start -->
+
+    <section class="footer text-white">
         <div class="footer-flex-top text-center">
-            <div class="footer-flex-others">
+            <div class="flex1">
                 <h5 class="footer-heading">OUR OFFICE</h5>
                 <p class="text-last">Rajbati, Burdwan, West Bengal</p>
             </div>
-            <div class="footer-flex-others">
+            <div class="flex1">
                 <h5 class="footer-heading">EMAIL US</h5>
                 <p class="text-last">karankumarzenitheduzone@gmail.com</p>
             </div>
-            <div class="footer-flex-others">
+            <div class="flex1">
                 <h5 class="footer-heading">CALL US</h5>
                 <p class="text-last">+91 9065407420</p>
             </div>
@@ -292,13 +332,23 @@
                 <h5 class="footer-heading">NEWSLETTER</h5>
                 <p>Feel free to get notified.</p>
                 <form action="/" method="get">
-                    <input type="text" placeholder="Your Email Address"><button type="submit" class="signup-btn">Sign
+                    <input type="email" placeholder="Your Email Address" class="newsletter-email"><button type="submit"
+                        class="signup-btn">Sign
                         Up</button>
                 </form>
             </div>
         </div>
 
-    </div>
+    </section>
+
+    <!-- Footer -->
+
+
+    <footer class="text-center">
+        © <a href="#" class="blue-color">Mohammed Mishal</a>. All Rights Reserved. Designed by <a href="#"
+            class="blue-color">BROTOTYPE</a>
+
+    </footer>
 
 </body>
 

@@ -100,7 +100,7 @@ li a:hover {
     letter-spacing: 3px;
 }
 
-#home-page {
+#home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/Homepage_photo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +139,6 @@ li a:hover {
 
     background-color: #22395d;
     position: -webkit-sticky;
-    /* Safari */
     position: sticky;
     top: 0;
 }
@@ -191,9 +190,7 @@ li a:hover {
     color: #ffffff;
 }
 
-/* #navbar{
-    background-color: antiquewhite;
-} */
+
 .section-about-services {
     padding: 10rem 12rem 8rem;
     overflow: auto;
@@ -333,7 +330,7 @@ margin-left: auto;
 justify-content: space-between;
     margin-bottom: 3rem;
 }
-.footer-flex-others{
+.flex1{
     flex: 1;
 }
 
@@ -356,7 +353,7 @@ justify-content: space-between;
 .products:hover{
     text-decoration: underline;
 }
-input{
+.newsletter-email{
     width: 341px; 
     height:64px;
     font-family:'Montserrat',sans-serif;
@@ -365,7 +362,7 @@ input{
     border: none;
     outline: none;
 }
-input::placeholder { 
+input[type=email]::placeholder { 
     
     font-family:'Montserrat',sans-serif;
     font-size: 1rem;
@@ -381,4 +378,29 @@ input::placeholder {
     background-color: #0085d9;
     color: #fff;
     
+}
+footer{
+    padding: 2em;
+    background-color: #22395d;
+    color: #fff;
+}
+.flex{
+    display: flex;
+}
+.contact-text-top{
+height: 48px;
+width: 360px;
+}
+.contact-text-btm{
+    height: 48px;
+width: 735px;
+}
+.contact-textarea{
+    height: 160px;
+    width: 735px;
+}
+.contact-contents {
+    padding: 1rem 12rem 8rem;
+    overflow: auto;
+
 }
