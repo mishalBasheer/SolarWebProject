@@ -389,18 +389,28 @@ footer{
 }
 .contact-text-top{
 height: 48px;
-width: 360px;
+width: 335px;
 }
 .contact-text-btm{
     height: 48px;
-width: 735px;
+    width: 711px;
 }
 .contact-textarea{
     height: 160px;
-    width: 735px;
+    width: 711px;
+    padding-top: 12px;
 }
 .contact-contents {
-    padding: 1rem 12rem 8rem;
+    padding: 1rem 12rem 1rem;
     overflow: auto;
+
+}
+.ff-bg{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1rem;
+    background-color: #F3F6FF;
+    padding-left: 20px;
+    border: none;
+    outline: none;
 
 }
