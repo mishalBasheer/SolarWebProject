@@ -2,7 +2,7 @@
 A web site is designed statically for understanding the basics of HTML &amp; CSS (Not responsive).
 
 This is a clone of web site that i got from appbrewery discord community.  
-[Visit webiste here]()
+[Visit site i made from here]()
 
 ## Project Description
 
