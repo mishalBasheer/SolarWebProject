@@ -8,7 +8,7 @@ This is a clone of web site that i got from appbrewery discord community.
 
 * Used various HTML elements and tags like header, nav, main, a, p, div, img, etc for desigining website.
 * With help of properties like background-color, display, margin, flex etc formatted and style HTML elements.
-* Used @media query for making the website responsive.
+
 
 ## Resources used
 
